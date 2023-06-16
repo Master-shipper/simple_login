@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Roses and Raisins Bakery - About Us</title>
+  <style>
+    body {
+      background-color: #D1C4E9; /* Light purple shade */
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('login_background.jpg');
+      background-repeat: repeat;
+    }
+
+    .header {
+      background-color: #5A4782; /* Dark purple shade */
+      color: #FFF;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo-container {
+      background-color: #5A4782; /* Dark purple shade */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .logo {
+      width: 120px;
+      height: 120px;
+      background-color: #8B75AC; /* Lighter purple shade */
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+
+    .logo span {
+      font-size: 36px;
+      font-weight: bold;
+      font-family: 'Arial Black', sans-serif;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    }
+
+    .menu {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .menu li {
+      display: inline-block;
+      margin-right: 20px;
+    }
+
+    .menu li:last-child {
+      margin-right: 0;
+    }
+
+    .menu li a {
+      color: #FFF;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 40px;
+      background-color: #FFF;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .container:nth-child(even) {
+      flex-direction: row-reverse;
+    }
+
+    .container .image {
+      flex-basis: 40%;
+      text-align: center;
+    }
+
+    .container .image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .container .description {
+      flex-basis: 60%;
+      padding: 0 20px;
+    }
+
+    .container .description h2 {
+      color: #5A4782; /* Dark purple shade */
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .container .description p {
+      color: #5A4782; /* Dark purple shade */
+      font-size: 16px;
+      line-height: 1.6;
+    }
+
+    .container .description .more-button {
+      margin-top: 10px;
+    }
+
+    .disclaimer {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #888;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="logo-container">
+      <div class="logo">
+        <span>Roses n Raisins</span>
+      </div>
+    </div>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Galleries</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="offers.html">Offers</a></li>
+    </ul>
+  </div>
+
+  <div class="container">
+    <div class="image">
+      <img src="pexels-antonio-quagliata-227432.jpg" alt="Services Image">
+    </div>
+    <div class="description">
+      <h2>Services</h2>
+      <p>Discover our wide range of bakery services that cater to your every need. From custom cakes to delightful pastries, we offer a variety of sweet treats made with love and passion. Explore our menu and indulge in a truly unforgettable experience.</p>
+      <a class="more-button" href="#">More</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="image">
+      <img src="pexels-sude-akpınar-8488074.jpg" alt="Galleries Image">
+    </div>
+    <div class="description">
+      <h2>Galleries</h2>
+      <p>Immerse yourself in the exquisite beauty of our bakery creations. Browse through our galleries to see stunning cakes, pastries, and more. Each image captures the artistry and attention to detail that goes into every baked masterpiece we create.</p>
+      <a class="more-button" href="#">More</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="image">
+      <img src="pexels-matheus-bertelli-16120213.jpg" alt="Events Image">
+    </div>
+    <div class="description">
+      <h2>Events</h2>
+      <p>Join us for special bakery events where you can experience the joy of delicious treats in a delightful atmosphere. From seasonal celebrations to themed gatherings, our events are designed to create memorable moments for our valued customers.</p>
+      <a class="more-button" href="#">More</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="image">
+      <img src="pexels-ali-khalil-16191763.jpg" alt="Offers Image">
+    </div>
+    <div class="description">
+      <h2>Offers</h2>
+      <p>Take advantage of our exclusive offers and promotions. We frequently update our specials to bring you the best value for our delectable bakery items. Treat yourself or surprise someone special with our limited-time offers.</p>
+      <a class="more-button" href="#">More</a>
+    </div>
+  </div>
+  <div class="contact-details" style="text-align: center;">
+  <div class="contact-info">Contact us:</div>
+  <div class="contact-info">123 Main Street, City, Country</div>
+  <div class="contact-info">Phone: 123-456-7890</div>
+  <div class="contact-info">Email: info@rosesandraisinsbakery.com</div>
+</div>
+
+
+  <p class="disclaimer">Disclaimer: Images used are from Pexels and are for illustrative purposes only.</p>
+
+  <div class="footer">Created by Master-shipper in 2023</div>
+</body>
+</html>
